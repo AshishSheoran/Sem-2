@@ -1,0 +1,188 @@
+/** Add any CSS you need to this file. */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow'); 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+body {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    margin:0;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+ nav {
+    background: black;
+    font-family:"Raleway",sans-serif;
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+nav a {
+    color:white;
+    font-style:initial;
+    padding:1em;
+    text-decoration: none;
+    display:block;
+} 
+
+.align-right {
+    margin-left:auto;
+}
+.main-container{
+    width:100%;
+    height: 2000 px;
+}
+.align-right:hover {
+    text-decoration: underline;
+}
+
+.page-heading {
+    background: url(images/rolex-4098062_1920.jpg);
+    background-size: cover;
+    width:100%;
+    height:400px;
+    margin:0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+}
+
+.page-heading h1,p{
+    padding-top:75px;
+    padding-left:80px;
+    font-size:2em;
+    color:#ea5455;
+}
+
+.page-heading p{
+    padding-left:80px;
+}
+
+
+.products {
+    margin-left:auto;
+    margin-right:auto;
+    border:.5px solid black;
+}
+
+.products h2,h3{
+    margin:.5em;
+}
+
+.Product {
+    display:block;
+    margin: .5em;
+    float:left;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    border: 1px solid;
+}
+
+.Product h2,h3{
+    margin-left:.5em;
+}
+
+
+
+.page-ending h2,p {
+    margin:0;
+    padding:0;
+}
+
+
+.page-ending form {
+    border: 0;
+    display:grid;
+    margin:0;
+    padding:0;
+    text-align: left;
+
+}
+
+.page-ending input[type="submit"] {
+    grid-column:2/3;
+    margin-left:auto;
+    margin-bottom:.2em;
+}
+
+/* .page-ending input[id=e-mail]
+{
+    align: left;
+} */
+
+footer {
+    max-width: 100%;
+}
+
+footer div.page-ending {
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    height: 10%;
+    width:100%;
+    float:left;
+    text-align: center;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+/* 
+.page-ending {
+    font-family:'PT Sans Narrow', sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:.25cm;
+    margin: .5em;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    height: 10%; 
+}
+/* 
+footer div.page-ending p {
+    margin: 0 auto;
+} */
+
+
+
+
+
+/* CSS Styles for the Contact.html */
+form{
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 1px solid black;
+    margin:1em;
+    padding:1em .5em 1em .5em;
+
+    max-width: 1024px;
+    min-width: 400px;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    font-size:1.5em;
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    grid-gap: .1em;
+
+    align-items: center;
+}
+
+input, textarea, select {
+    width: 100%;
+    font-size: .8em;
+    border-radius: .25em;
+    border: 1px solid rgba(156, 201, 212, 0.767);
+}
+
+textarea {
+    grid-column: 1/3;
+}
+
+#button {
+    grid-column:2/3;
+    margin-left: auto;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 5em;
+}
+
